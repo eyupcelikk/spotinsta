@@ -19,7 +19,7 @@ if($_GET['Status'] == "Ok"){
 
         $i->login();
 
-        $editProfile = $i->editProfile("","","",$_SESSION['Value'],"eyupcelik104020@gmail.com",1);
+        $editProfile = $i->editProfile("","","",$_SESSION['Value'],"$sizinemailiniz",1);
 
         if($editProfile['status'] == "fail"){
             echo 'Bir Hata Oluştu !';
