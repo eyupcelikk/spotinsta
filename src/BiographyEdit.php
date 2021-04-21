@@ -11,6 +11,8 @@ $username = '';
 
 $password = '';
 
+$sizinemailiniz = '';
+
 $debug = false;
 
 if($_GET['Status'] == "Ok"){
