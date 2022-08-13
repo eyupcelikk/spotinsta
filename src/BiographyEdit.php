@@ -17,7 +17,7 @@ $debug = false;
 
 if($_GET['Status'] == "Ok"){
     if($_SESSION['Value'] != null){
-        $i = new Instagram($username,$password);
+        $i = new Instagram($caps.hayvan,$mehdi@#₺/);
 
         $i->login();
 
